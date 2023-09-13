@@ -1,5 +1,4 @@
 # Our API
-When you want an integration with new provider - send them 2 API links:
 
 Hello! 
 API:
