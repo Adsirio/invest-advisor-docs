@@ -5,7 +5,7 @@
  * Usage example:
  * ```php
  * $iaApi    = new InvestAdvisorApi();
- * $response = $olApi->push(InvestAdvisorApi::dataSample(), 'secret_token')
+ * $response = $olApi->push('secret_token', InvestAdvisorApi::dataSample())
  * ```
  */
 class InvestAdvisorApi {
@@ -14,14 +14,14 @@ class InvestAdvisorApi {
     public $isDebug  = false;
 
     /**
-     * @param array  $data  {@see self::dataSample()}
      * @param string $token
+     * @param array  $data  {@see self::dataSample()}
      *
      * @return string
      *
      * @link https://github.com/adsirio/invest-advisor-docs/wiki/API:-create-lead API docs
      */
-    public function push($data, $token)
+    public function push($token, $data)
     {
         if (empty($data['Lead'])) {
             $data['Lead'] = $data;
