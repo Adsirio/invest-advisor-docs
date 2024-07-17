@@ -9,7 +9,7 @@
  * ```
  */
 class InvestAdvisorApi {
-    public $domain   = 'new.invest-advisor.us';
+    public $domain   = 'new.doctorback.net';
     public $isEnvDev = false;
     public $isDebug  = false;
 
