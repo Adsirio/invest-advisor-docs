@@ -15,5 +15,5 @@ API credentials:
 ```
 ```YOUR_ACCESS_TOKEN = _YOUR_ACCESS_TOKEN_```
 
-```offer_rule_offer_id = 222222``` - it's test value. When we'll go live, @Thomas  may provide you with new value.
+```offer_rule_offer_id = 222222``` - it's test value. When you'll go live, @Thomas  may provide you with new value.
 ```
