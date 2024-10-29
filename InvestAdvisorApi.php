@@ -86,6 +86,7 @@ class InvestAdvisorApi {
                 'funnel_name'         => 'test F name',
 
                 // optional
+                'test'     => 1,
                 'ua'       => '', // The User-Agent header from the user's request
                 //Offer Info. Description of the funnel and user flow.
                 // Example: The client has registered by this link after he saw a Banner/Ad on some site/Pop up/Blog,
