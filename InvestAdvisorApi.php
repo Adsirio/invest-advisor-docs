@@ -59,7 +59,7 @@ class InvestAdvisorApi {
             ], true);
 
             if ($this->isEnvDev) {
-                throw new Exception($log);
+                throw new \Exception($log);
             } else {
                 error_log($log);
             }
