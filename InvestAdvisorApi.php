@@ -5,7 +5,7 @@
  * Usage example:
  * ```php
  * $iaApi    = new InvestAdvisorApi();
- * $response = $olApi->push('secret_token', InvestAdvisorApi::dataSample())
+ * $response = $iaApi->push('secret_token', InvestAdvisorApi::dataSample())
  * ```
  */
 class InvestAdvisorApi {
