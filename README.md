@@ -1,6 +1,9 @@
 # Our API
 
-Hello! Pls give me your IP to whitelist. After that will provide your credentials.
+Hello! 
+Pls give me your IP to whitelist. 
+After that will provide your credentials.
+Test geo - any.
 
 PHP example - https://github.com/Adsirio/invest-advisor-docs/blob/main/InvestAdvisorApi.php
 
